@@ -112,7 +112,7 @@ namespace TetrisRandomizer
 		/// Adds the shape to history.
 		/// </summary>
 		/// <param name="shapeType">Shape type to put in history</param>
-		private void AddShapeToHistory(int shapeType)
+		public void AddShapeToHistory(int shapeType)
 		{
 			ShapeHistory.Enqueue(shapeType);
 
