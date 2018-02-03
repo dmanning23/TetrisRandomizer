@@ -2,7 +2,7 @@
 <package xmlns="http://schemas.microsoft.com/packaging/2011/08/nuspec.xsd">
 	<metadata>
 		<id>TetrisRandomizer</id>
-		<version>1.0.1</version>
+		<version>1.0.2</version>
 		<title>TetrisRandomizer</title>
 		<authors>dmanning23</authors>
 		<owners>dmanning23</owners>
@@ -47,9 +47,9 @@
 		<file src="TetrisRandomizer.WindowsUniversal\bin\Release\TetrisRandomizer.WindowsUniversal.pdb" target="lib\uap10.0\TetrisRandomizer.WindowsUniversal.pdb" />
 		<file src="TetrisRandomizer.WindowsUniversal\bin\Release\TetrisRandomizer.WindowsUniversal.dll" target="lib\uap10.0\TetrisRandomizer.WindowsUniversal.dll" />
 
-		<!--DesktopGL-->
-		<file src="TetrisRandomizer.DesktopGL\bin\Release\TetrisRandomizer.DesktopGL.pdb" target="lib\net451\TetrisRandomizer.DesktopGL.pdb" />
-		<file src="TetrisRandomizer.DesktopGL\bin\Release\TetrisRandomizer.DesktopGL.dll" target="lib\net451\TetrisRandomizer.DesktopGL.dll" />
+		<!--WindowsDX-->
+		<file src="TetrisRandomizer.WindowsDX\bin\Release\TetrisRandomizer.WindowsDX.pdb" target="lib\net451\TetrisRandomizer.WindowsDX.pdb" />
+		<file src="TetrisRandomizer.WindowsDX\bin\Release\TetrisRandomizer.WindowsDX.dll" target="lib\net451\TetrisRandomizer.WindowsDX.dll" />
 
 	</files>
 </package>
