@@ -1,13 +1,11 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 15
-VisualStudioVersion = 15.0.27130.2024
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30517.126
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TetrisRandomizer.Android", "TetrisRandomizer.Android\TetrisRandomizer.Android.csproj", "{DEF0962C-E099-4191-8EE2-81B7082EC2AD}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TetrisRandomizer.iOS", "TetrisRandomizer.iOS\TetrisRandomizer.iOS.csproj", "{1CCA2925-9C53-45B5-BA09-39A726439305}"
-EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TetrisRandomizer.WindowsUniversal", "TetrisRandomizer.WindowsUniversal\TetrisRandomizer.WindowsUniversal.csproj", "{DD03CA58-8B03-422C-8017-046F6B005A01}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{B062AA7F-9E40-4071-B251-0DE3B2A35686}"
 	ProjectSection(SolutionItems) = preProject
@@ -23,7 +21,6 @@ Global
 	GlobalSection(SharedMSBuildProjectFiles) = preSolution
 		TetrisRandomizer.SharedProject\TetrisRandomizer.SharedProject.projitems*{1cca2925-9c53-45b5-ba09-39a726439305}*SharedItemsImports = 4
 		TetrisRandomizer.SharedProject\TetrisRandomizer.SharedProject.projitems*{bda32369-f3ff-4558-a67a-d5d6e0b652ed}*SharedItemsImports = 13
-		TetrisRandomizer.SharedProject\TetrisRandomizer.SharedProject.projitems*{dd03ca58-8b03-422c-8017-046f6b005a01}*SharedItemsImports = 4
 		TetrisRandomizer.SharedProject\TetrisRandomizer.SharedProject.projitems*{def0962c-e099-4191-8ee2-81b7082ec2ad}*SharedItemsImports = 4
 		TetrisRandomizer.SharedProject\TetrisRandomizer.SharedProject.projitems*{dfe2eb3b-d001-4428-9c94-7503d11f0e4f}*SharedItemsImports = 4
 	EndGlobalSection
@@ -90,30 +87,6 @@ Global
 		{1CCA2925-9C53-45B5-BA09-39A726439305}.Release|x64.Build.0 = Release|Any CPU
 		{1CCA2925-9C53-45B5-BA09-39A726439305}.Release|x86.ActiveCfg = Release|Any CPU
 		{1CCA2925-9C53-45B5-BA09-39A726439305}.Release|x86.Build.0 = Release|Any CPU
-		{DD03CA58-8B03-422C-8017-046F6B005A01}.AppStore|Any CPU.ActiveCfg = Release|Any CPU
-		{DD03CA58-8B03-422C-8017-046F6B005A01}.AppStore|Any CPU.Build.0 = Release|Any CPU
-		{DD03CA58-8B03-422C-8017-046F6B005A01}.AppStore|ARM.ActiveCfg = Release|ARM
-		{DD03CA58-8B03-422C-8017-046F6B005A01}.AppStore|ARM.Build.0 = Release|ARM
-		{DD03CA58-8B03-422C-8017-046F6B005A01}.AppStore|x64.ActiveCfg = Release|x64
-		{DD03CA58-8B03-422C-8017-046F6B005A01}.AppStore|x64.Build.0 = Release|x64
-		{DD03CA58-8B03-422C-8017-046F6B005A01}.AppStore|x86.ActiveCfg = Release|x86
-		{DD03CA58-8B03-422C-8017-046F6B005A01}.AppStore|x86.Build.0 = Release|x86
-		{DD03CA58-8B03-422C-8017-046F6B005A01}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{DD03CA58-8B03-422C-8017-046F6B005A01}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{DD03CA58-8B03-422C-8017-046F6B005A01}.Debug|ARM.ActiveCfg = Debug|ARM
-		{DD03CA58-8B03-422C-8017-046F6B005A01}.Debug|ARM.Build.0 = Debug|ARM
-		{DD03CA58-8B03-422C-8017-046F6B005A01}.Debug|x64.ActiveCfg = Debug|x64
-		{DD03CA58-8B03-422C-8017-046F6B005A01}.Debug|x64.Build.0 = Debug|x64
-		{DD03CA58-8B03-422C-8017-046F6B005A01}.Debug|x86.ActiveCfg = Debug|x86
-		{DD03CA58-8B03-422C-8017-046F6B005A01}.Debug|x86.Build.0 = Debug|x86
-		{DD03CA58-8B03-422C-8017-046F6B005A01}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{DD03CA58-8B03-422C-8017-046F6B005A01}.Release|Any CPU.Build.0 = Release|Any CPU
-		{DD03CA58-8B03-422C-8017-046F6B005A01}.Release|ARM.ActiveCfg = Release|ARM
-		{DD03CA58-8B03-422C-8017-046F6B005A01}.Release|ARM.Build.0 = Release|ARM
-		{DD03CA58-8B03-422C-8017-046F6B005A01}.Release|x64.ActiveCfg = Release|x64
-		{DD03CA58-8B03-422C-8017-046F6B005A01}.Release|x64.Build.0 = Release|x64
-		{DD03CA58-8B03-422C-8017-046F6B005A01}.Release|x86.ActiveCfg = Release|x86
-		{DD03CA58-8B03-422C-8017-046F6B005A01}.Release|x86.Build.0 = Release|x86
 		{DFE2EB3B-D001-4428-9C94-7503D11F0E4F}.AppStore|Any CPU.ActiveCfg = Release|Any CPU
 		{DFE2EB3B-D001-4428-9C94-7503D11F0E4F}.AppStore|Any CPU.Build.0 = Release|Any CPU
 		{DFE2EB3B-D001-4428-9C94-7503D11F0E4F}.AppStore|ARM.ActiveCfg = Release|Any CPU
