@@ -1,0 +1,20 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <PackageId>TetrisRandomizer</PackageId>
+    <Version>5.0.0</Version>
+    <Title>TetrisRandomizer</Title>
+    <Authors>dmanning23</Authors>
+    <description>A bag-randomizer based on the TGM randomizer for doing sort-of random numbers</description>
+    <PackageProjectUrl>https://github.com/dmanning23/TetrisRandomizer</PackageProjectUrl>
+    <PackageLicenseExpression>MIT</PackageLicenseExpression>
+    <RepositoryUrl>https://github.com/dmanning23/TetrisRandomizer</RepositoryUrl>
+    <RepositoryType>git</RepositoryType>
+    <PackageTags>monogame</PackageTags>
+    <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+    <IncludeSymbols>true</IncludeSymbols>
+    <SymbolPackageFormat>snupkg</SymbolPackageFormat>
+  </PropertyGroup>
+  <ItemGroup>
+  </ItemGroup>
+</Project>
